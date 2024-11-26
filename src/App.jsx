@@ -5,7 +5,7 @@ function App() {
   const [amount, setAmount] = useState("");
   const [term, setTerm] = useState("");
   const [rate, setRate] = useState("");
-  const [type, setType] = useState("repayment");
+  const [type, setType] = useState("");
   const [monthly, setMonthly] = useState("");
   const [total, setTotal] = useState("");
   function validate() {
@@ -17,10 +17,15 @@ function App() {
       alert("Please enter number");
       return false;
     }
-    if (term === "") {
+    if (rate === "") {
       alert("Please enter number");
       return false;
     }
+    if (type === "") {
+      alert("Please select Repayment type");
+      return false;
+    }
+
     return true;
   }
   function handleClick(e) {
@@ -30,13 +35,15 @@ function App() {
       return;
     }
     if (type === "interest-only") {
-      alert("Please select Repayment type.");
+      alert("Please select Repayment type");
       return;
     }
+
     const number1 = Number(amount);
     const number2 = Number(rate) / 100;
     const number3 = number2 / 12;
     const number4 = Number(term) * 12;
+
     if (type === "repayment") {
       if (number3 > 0) {
         const monthly =
