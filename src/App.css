@@ -1,0 +1,172 @@
+.mortgage-calculator__wrapper {
+  width: 100%;
+  display: flex;
+  background: #fff;
+  border-radius: 24px;
+}
+.left {
+  width: 504px;
+  height: 606px;
+  padding: 4rem;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.left-header h1 {
+  color: rgb(19, 48, 65);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+.left-header a {
+  color: rgb(78, 110, 126);
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-decoration: underline;
+}
+.right {
+  width: 504px;
+  height: 606px;
+  color: #fff;
+  padding: 4rem;
+  border-radius: 0px 24px 24px 80px;
+  background: rgb(19, 48, 65);
+}
+.main-title {
+  margin-bottom: 12px;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  color: rgb(19, 48, 65);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0%;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0.5rem;
+  outline: 2.5px solid rgb(78, 110, 126);
+  outline-offset: 2.5px;
+  border-radius: 50%;
+}
+input[type="radio"]:checked {
+  background: rgb(78, 110, 126);
+}
+.radio-box {
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  gap: 0.5rem;
+  border: 1px solid rgb(107, 148, 168);
+  border-radius: 4px;
+}
+.radio-box > * {
+  cursor: pointer;
+}
+.radio-box label {
+  width: 100%;
+}
+.symbol {
+  background: rgb(228, 244, 253);
+  color: rgb(78, 110, 126);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0%;
+  padding: 1.2rem 1.6rem;
+  border-radius: 4px;
+}
+.input-block {
+  display: flex;
+  border: 1px solid rgb(107, 148, 168);
+  border-radius: 4px;
+}
+.input-wrap {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 24px;
+}
+.box {
+  margin-bottom: 24px;
+}
+.calculate-btn {
+  padding: 16px 40px;
+  border-radius: 999px;
+  background: rgb(216, 219, 47);
+  color: rgb(19, 48, 65);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+.radio-wrapper {
+  margin-bottom: 40px;
+}
+.right-title {
+  color: rgb(255, 255, 255);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0%;
+  margin-bottom: 1.6rem;
+}
+.right-desc {
+  color: rgb(154, 190, 213);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+}
+.right-results {
+  padding: 32px;
+  border-top: 4px solid rgb(216, 219, 47);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.25);
+}
+.right-results p {
+  color: rgb(154, 190, 213);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-bottom: 8px;
+}
+.right-results h2 {
+  color: rgb(216, 219, 47);
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 125%;
+  letter-spacing: 0%;
+  margin-bottom: 3.2rem;
+}
+.line {
+  border-bottom: 1.5px solid rgba(154, 190, 213, 0.25);
+  margin-bottom: 32px;
+}
+.right-results h4 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
